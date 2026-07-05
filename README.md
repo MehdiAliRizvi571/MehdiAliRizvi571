@@ -28,13 +28,13 @@ $ cat about_me.txt
 ### ⚡ Tech Stack <picture><sub><img src="https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif" width="20px"/></sub></picture>
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,tensorflow,numpy&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,tensorflow,jupyter&theme=dark" />
 </p>
 <p align="left">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,bash&theme=dark" />
 </p>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,selenium,fastapi,docker,regex&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=postgres,selenium,fastapi,docker,postman&theme=dark" />
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -55,11 +55,7 @@ $ cat about_me.txt
 ### 🐍 Contribution Snake <picture><sub><img src="https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif" width="20px"/></sub></picture>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MehdiAliRizvi571/MehdiAliRizvi571/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MehdiAliRizvi571/MehdiAliRizvi571/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/MehdiAliRizvi571/MehdiAliRizvi571/output/github-contribution-grid-snake-dark.svg">
-  </picture>
+  <img src="https://raw.githubusercontent.com/MehdiAliRizvi571/MehdiAliRizvi571/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
