@@ -25,10 +25,10 @@ $ cat about_me.txt
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### ⚡ Tech Stack <picture><sub><img src="https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif" width="20px"/></sub></picture>
+### ⚡ Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,tensorflow,jupyter&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,tensorflow,anaconda&theme=dark" />
 </p>
 <p align="left">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,bash&theme=dark" />
@@ -39,11 +39,11 @@ $ cat about_me.txt
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### 📊 GitHub Stats <picture><sub><img src="https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif" width="20px"/></sub></picture>
+### 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MehdiAliRizvi571&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MehdiAliRizvi571&layout=compact&langs_count=7&theme=chartreuse-dark&hide_border=true"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MehdiAliRizvi571&theme=github_dark"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MehdiAliRizvi571&theme=github_dark"/>
 </div>
 
 <div align="center">
@@ -52,7 +52,7 @@ $ cat about_me.txt
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### 🐍 Contribution Snake <picture><sub><img src="https://user-images.githubusercontent.com/74038190/206662607-d9e7591e-bbf9-42f9-9386-29efc927bc16.gif" width="20px"/></sub></picture>
+### 🐍 Contribution Snake
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/MehdiAliRizvi571/MehdiAliRizvi571/output/github-contribution-grid-snake-dark.svg" alt="github contribution grid snake animation" />
