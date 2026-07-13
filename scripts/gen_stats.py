@@ -28,6 +28,10 @@ FONT = (
     "'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif"
 )
 
+# Notebook files embed their output cells, so their byte count swamps every
+# real language and says nothing about what the code is written in.
+SKIP_LANGUAGES = {"Jupyter Notebook"}
+
 
 def graphql(query, variables):
     body = json.dumps({"query": query, "variables": variables}).encode()
@@ -260,6 +264,8 @@ if __name__ == "__main__":
     for repo in profile["repositories"]["nodes"]:
         stars += repo["stargazerCount"]
         for edge in repo["languages"]["edges"]:
+            if edge["node"]["name"] in SKIP_LANGUAGES:
+                continue
             entry = lang_bytes.setdefault(
                 edge["node"]["name"], {"size": 0, "color": edge["node"]["color"]}
             )
