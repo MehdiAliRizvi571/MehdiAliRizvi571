@@ -42,12 +42,12 @@ $ cat about_me.txt
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MehdiAliRizvi571&theme=github_dark"/>
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MehdiAliRizvi571&theme=github_dark"/>
+  <img height="240em" src="https://raw.githubusercontent.com/MehdiAliRizvi571/MehdiAliRizvi571/output/stats.svg" alt="GitHub overview" />
+  <img height="240em" src="https://raw.githubusercontent.com/MehdiAliRizvi571/MehdiAliRizvi571/output/languages.svg" alt="Most used languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MehdiAliRizvi571&theme=dark&hide_border=true&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" />
+  <img src="https://raw.githubusercontent.com/MehdiAliRizvi571/MehdiAliRizvi571/output/streak.svg" alt="Contribution streak" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
