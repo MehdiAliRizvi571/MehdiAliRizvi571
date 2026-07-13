@@ -194,14 +194,19 @@ def overview(stats):
     return card(340, 240, "GitHub Overview", "\n".join(lines))
 
 
-def languages(lang_bytes):
-    top = sorted(lang_bytes.items(), key=lambda kv: -kv[1]["size"])[:6]
-    total = sum(v["size"] for _, v in top) or 1
-    lines = [f'  <text x="25" y="32" class="t">Most Used Languages</text>']
+def languages(lang_repos):
+    """Rank by how many repos a language appears in, not by bytes written.
+
+    Bytes let one large web project outweigh everything else; repo count
+    tracks what actually gets reached for across projects.
+    """
+    top = sorted(lang_repos.items(), key=lambda kv: (-kv[1]["repos"], kv[0]))[:6]
+    total = sum(v["repos"] for _, v in top) or 1
+    lines = [f'  <text x="25" y="32" class="t">Languages by Project</text>']
 
     x, bar_w = 25.0, 290.0
     for name, meta in top:
-        w = bar_w * meta["size"] / total
+        w = bar_w * meta["repos"] / total
         lines.append(
             f'  <rect x="{x:.1f}" y="48" width="{w:.1f}" height="10" fill="{meta["color"] or MUTED}"/>'
         )
@@ -212,14 +217,15 @@ def languages(lang_bytes):
         col = 25 if i % 2 == 0 else 180
         if i % 2 == 0 and i:
             y += 26
-        pct = 100 * meta["size"] / total
+        count = meta["repos"]
+        label = f"{count} repo" if count == 1 else f"{count} repos"
         lines.append(
             f'  <circle cx="{col + 5}" cy="{y - 4}" r="5" fill="{meta["color"] or MUTED}"/>'
         )
         lines.append(
-            f'  <text x="{col + 17}" y="{y}" class="k">{escape(name)} <tspan class="d">{pct:.1f}%</tspan></text>'
+            f'  <text x="{col + 17}" y="{y}" class="k">{escape(name)} <tspan class="d">{label}</tspan></text>'
         )
-    return card(340, 240, "Most Used Languages", "\n".join(lines))
+    return card(340, 240, "Languages by Project", "\n".join(lines))
 
 
 def streak_card(total, total_range, current, longest):
@@ -259,17 +265,17 @@ if __name__ == "__main__":
         f"{fmt(date.fromisoformat(active[0]))} - Present" if active else "—"
     )
 
-    lang_bytes = {}
+    lang_repos = {}
     stars = 0
     for repo in profile["repositories"]["nodes"]:
         stars += repo["stargazerCount"]
         for edge in repo["languages"]["edges"]:
             if edge["node"]["name"] in SKIP_LANGUAGES:
                 continue
-            entry = lang_bytes.setdefault(
-                edge["node"]["name"], {"size": 0, "color": edge["node"]["color"]}
+            entry = lang_repos.setdefault(
+                edge["node"]["name"], {"repos": 0, "color": edge["node"]["color"]}
             )
-            entry["size"] += edge["size"]
+            entry["repos"] += 1
 
     stats = {
         "contributions": totals["contributions"],
@@ -284,7 +290,7 @@ if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     for name, svg in (
         ("stats.svg", overview(stats)),
-        ("languages.svg", languages(lang_bytes)),
+        ("languages.svg", languages(lang_repos)),
         ("streak.svg", streak_card(totals["contributions"], total_range, current, longest)),
     ):
         with open(os.path.join(OUT, name), "w", encoding="utf-8") as fh:
