@@ -63,7 +63,3 @@ $ cat about_me.txt
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=MehdiAliRizvi571&color=00FF41&style=flat-square&label=Profile+Views" alt="profile views" />
 </div>
-
-<div align="center">
-  <b>السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ ✨</b>
-</div>
