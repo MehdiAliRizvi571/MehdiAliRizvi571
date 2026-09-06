@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="240" viewBox="0 0 340 240" role="img" aria-label="GitHub Overview">
+  <style>
+    .t { font: 600 16px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #00FF41; }
+    .k { font: 400 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #c9d1d9; }
+    .v { font: 700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #00FF41; }
+    .n { font: 800 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #c9d1d9; }
+    .s { font: 600 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #00FF41; letter-spacing: .5px; }
+    .d { font: 400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #8b949e; }
+  </style>
+  <rect x="0.5" y="0.5" width="339" height="239" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="32" class="t">GitHub Overview</text>
+  <text x="25" y="62" class="k">Total Contributions</text>
+  <text x="315" y="62" class="v" text-anchor="end">1,019</text>
+  <text x="25" y="86" class="k">Commits</text>
+  <text x="315" y="86" class="v" text-anchor="end">11</text>
+  <text x="25" y="110" class="k">Pull Requests</text>
+  <text x="315" y="110" class="v" text-anchor="end">0</text>
+  <text x="25" y="134" class="k">Issues</text>
+  <text x="315" y="134" class="v" text-anchor="end">0</text>
+  <text x="25" y="158" class="k">Stars Earned</text>
+  <text x="315" y="158" class="v" text-anchor="end">0</text>
+  <text x="25" y="182" class="k">Public Repos</text>
+  <text x="315" y="182" class="v" text-anchor="end">5</text>
+  <text x="25" y="206" class="k">Followers</text>
+  <text x="315" y="206" class="v" text-anchor="end">0</text>
+</svg>

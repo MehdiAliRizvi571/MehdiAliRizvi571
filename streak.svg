@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="180" viewBox="0 0 700 180" role="img" aria-label="Contribution streak">
+  <style>
+    .t { font: 600 16px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #00FF41; }
+    .k { font: 400 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #c9d1d9; }
+    .v { font: 700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #00FF41; }
+    .n { font: 800 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #c9d1d9; }
+    .s { font: 600 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #00FF41; letter-spacing: .5px; }
+    .d { font: 400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #8b949e; }
+  </style>
+  <rect x="0.5" y="0.5" width="699" height="179" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <line x1="235" y1="35" x2="235" y2="145" stroke="#30363d"/>
+  <line x1="465" y1="35" x2="465" y2="145" stroke="#30363d"/>
+
+  <text x="118" y="75" class="n" text-anchor="middle">1,019</text>
+  <text x="118" y="102" class="s" text-anchor="middle">TOTAL CONTRIBUTIONS</text>
+  <text x="118" y="122" class="d" text-anchor="middle">Feb 5, 2024 - Present</text>
+
+  <circle cx="350" cy="72" r="34" fill="none" stroke="#00FF41" stroke-width="4"/>
+  <text x="350" y="82" class="n" text-anchor="middle">8</text>
+  <text x="350" y="130" class="s" text-anchor="middle">CURRENT STREAK</text>
+  <text x="350" y="150" class="d" text-anchor="middle">Aug 30, 2026 - Present</text>
+
+  <text x="582" y="75" class="n" text-anchor="middle">9</text>
+  <text x="582" y="102" class="s" text-anchor="middle">LONGEST STREAK</text>
+  <text x="582" y="122" class="d" text-anchor="middle">Jun 27, 2026 - Jul 5, 2026</text>
+</svg>
