@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="240" viewBox="0 0 340 240" role="img" aria-label="Languages by Project">
+  <style>
+    .t { font: 600 16px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #00FF41; }
+    .k { font: 400 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #c9d1d9; }
+    .v { font: 700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #00FF41; }
+    .n { font: 800 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #c9d1d9; }
+    .s { font: 600 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #00FF41; letter-spacing: .5px; }
+    .d { font: 400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #8b949e; }
+  </style>
+  <rect x="0.5" y="0.5" width="339" height="239" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="32" class="t">Languages by Project</text>
+  <rect x="25.0" y="48" width="145.0" height="10" fill="#3572A5"/>
+  <rect x="170.0" y="48" width="36.2" height="10" fill="#663399"/>
+  <rect x="206.2" y="48" width="36.2" height="10" fill="#e34c26"/>
+  <rect x="242.5" y="48" width="36.2" height="10" fill="#f1e05a"/>
+  <rect x="278.8" y="48" width="36.2" height="10" fill="#3178c6"/>
+  <circle cx="30" cy="80" r="5" fill="#3572A5"/>
+  <text x="42" y="84" class="k">Python <tspan class="d">4 repos</tspan></text>
+  <circle cx="185" cy="80" r="5" fill="#663399"/>
+  <text x="197" y="84" class="k">CSS <tspan class="d">1 repo</tspan></text>
+  <circle cx="30" cy="106" r="5" fill="#e34c26"/>
+  <text x="42" y="110" class="k">HTML <tspan class="d">1 repo</tspan></text>
+  <circle cx="185" cy="106" r="5" fill="#f1e05a"/>
+  <text x="197" y="110" class="k">JavaScript <tspan class="d">1 repo</tspan></text>
+  <circle cx="30" cy="132" r="5" fill="#3178c6"/>
+  <text x="42" y="136" class="k">TypeScript <tspan class="d">1 repo</tspan></text>
+</svg>
